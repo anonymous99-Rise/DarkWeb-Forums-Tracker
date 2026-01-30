@@ -2,12 +2,12 @@
 <rss version='2.0'
     xmlns:atom='http://www.w3.org/2005/Atom'>
     <channel>
-        <title>数据泄露监控周报 RSS 2026-01-23 - 2026-01-23</title>
-        <description>每周数据泄露监控RSS feed，包含2026-01-23到2026-01-23的最新数据泄露信息</description>
+        <title>数据泄露监控周报 RSS 2026-01-30 - 2026-01-30</title>
+        <description>每周数据泄露监控RSS feed，包含2026-01-30到2026-01-30的最新数据泄露信息</description>
         <link>https://adminlove520.github.io/DarkWeb-Forums-Tracker/</link>
-        <atom:link href='https://adminlove520.github.io/DarkWeb-Forums-Tracker/rss/weekly_rss_2026-01-23_2026-01-23.xml' rel='self' type='application/rss+xml' />
+        <atom:link href='https://adminlove520.github.io/DarkWeb-Forums-Tracker/rss/weekly_rss_2026-01-30_2026-01-30.xml' rel='self' type='application/rss+xml' />
         <language>zh-CN</language>
-        <lastBuildDate>Fri, 23 Jan 2026 07:25:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2026 04:09:29 GMT</lastBuildDate>
         <ttl>60</ttl>
         
     </channel>
