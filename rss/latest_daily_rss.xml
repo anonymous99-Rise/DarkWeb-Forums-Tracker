@@ -2,811 +2,594 @@
 <rss version='2.0'
     xmlns:atom='http://www.w3.org/2005/Atom'>
     <channel>
-        <title>数据泄露监控日报 RSS 2026-04-21</title>
-        <description>每日数据泄露监控RSS feed，包含2026-04-21的最新数据泄露信息</description>
+        <title>数据泄露监控日报 RSS 2026-04-22</title>
+        <description>每日数据泄露监控RSS feed，包含2026-04-22的最新数据泄露信息</description>
         <link>https://adminlove520.github.io/DarkWeb-Forums-Tracker/</link>
-        <atom:link href='https://adminlove520.github.io/DarkWeb-Forums-Tracker/rss/daily_rss_2026-04-21.xml' rel='self' type='application/rss+xml' />
+        <atom:link href='https://adminlove520.github.io/DarkWeb-Forums-Tracker/rss/daily_rss_2026-04-22.xml' rel='self' type='application/rss+xml' />
         <language>zh-CN</language>
-        <lastBuildDate>Tue, 21 Apr 2026 04:48:24 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 04:08:29 GMT</lastBuildDate>
         <ttl>60</ttl>
         
         <item>
-            <title>Обновление форума IPB 2.1.5 до IPS 4.x</title>
-            <link>https://ipbmafia.ru/topic/25886-obnovlenie-foruma-ipb-215-do-ips-4x/?do=findComment&comment=231493</link>
-            <description>Обновление форума IPB 2.1.5 до IPS 4.x</description>
-            <pubDate>Tue, 21 Apr 2026 04:48:20 GMT</pubDate>
-            <guid isPermaLink='false'>https://ipbmafia.ru/topic/25886-obnovlenie-foruma-ipb-215-do-ips-4x/?do=findComment&comment=231493_2026-04-21 04:48:20</guid>
-        </item>
-        <item>
-            <title>Трафик на сайт / Вывод в топ. Рост позиций в ТОП поиска по запросам: SEO-трафик</title>
-            <link>https://mipped.com/f/threads/trafik-na-sait-vyvod-v-top-rost-pozitsii-v-top-poiska-po-zaprosam-seo-trafik.322787/</link>
-            <description>Трафик на сайт / Вывод в топ. Рост позиций в ТОП поиска по запросам: SEO-трафик</description>
-            <pubDate>Tue, 21 Apr 2026 04:48:10 GMT</pubDate>
-            <guid isPermaLink='false'>https://mipped.com/f/threads/trafik-na-sait-vyvod-v-top-rost-pozitsii-v-top-poiska-po-zaprosam-seo-trafik.322787/_2026-04-21 04:48:10</guid>
-        </item>
-        <item>
-            <title>Комплексное продвижение сайта в поисковых системах - seo</title>
-            <link>https://mipped.com/f/threads/kompleksnoye-prodvizheniye-saita-v-poiskovykh-sistemakh-seo.322683/</link>
-            <description>Комплексное продвижение сайта в поисковых системах - seo</description>
-            <pubDate>Tue, 21 Apr 2026 04:48:06 GMT</pubDate>
-            <guid isPermaLink='false'>https://mipped.com/f/threads/kompleksnoye-prodvizheniye-saita-v-poiskovykh-sistemakh-seo.322683/_2026-04-21 04:48:06</guid>
-        </item>
-        <item>
-            <title>♋ 40k HOTMAIL Base With Valid [FORUMS] ♋ (9)</title>
-            <link>https://hard-tm.su/threads/160983/</link>
-            <description>♋ 40k HOTMAIL Base With Valid [FORUMS] ♋ (9)</description>
-            <pubDate>Tue, 21 Apr 2026 04:47:58 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/160983/_2026-04-21 04:47:58</guid>
-        </item>
-        <item>
-            <title>Старореги, 2006-2009 год, 3 функции, Гарантии (Автовыдача)</title>
-            <link>https://hard-tm.su/threads/127872/</link>
-            <description>Старореги, 2006-2009 год, 3 функции, Гарантии (Автовыдача)</description>
-            <pubDate>Tue, 21 Apr 2026 04:47:54 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/127872/_2026-04-21 04:47:54</guid>
-        </item>
-        <item>
-            <title>♋ 40k HOTMAIL Base With Valid [FORUMS] ♋ (9)</title>
-            <link>https://forum.gerki.ws/threads/146079/</link>
-            <description>♋ 40k HOTMAIL Base With Valid [FORUMS] ♋ (9)</description>
-            <pubDate>Tue, 21 Apr 2026 04:47:45 GMT</pubDate>
-            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146079/_2026-04-21 04:47:45</guid>
-        </item>
-        <item>
-            <title>Total Lines 723 HTTP Proxies</title>
-            <link>https://xforums.st/threads/total-lines-723-http-proxies.609146/</link>
-            <description>Total Lines 723 HTTP Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:47:36 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-723-http-proxies.609146/_2026-04-21 04:47:36</guid>
-        </item>
-        <item>
-            <title>Total Lines 372 SOCKS4 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-372-socks4-proxies.609147/</link>
-            <description>Total Lines 372 SOCKS4 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:47:31 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-372-socks4-proxies.609147/_2026-04-21 04:47:31</guid>
-        </item>
-        <item>
-            <title>Total Lines 25242 SOCKS5 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-25242-socks5-proxies.609148/</link>
-            <description>Total Lines 25242 SOCKS5 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:47:27 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-25242-socks5-proxies.609148/_2026-04-21 04:47:27</guid>
-        </item>
-        <item>
-            <title>Обновление форума IPB 2.1.5 до IPS 4.x</title>
-            <link>https://ipbmafia.ru/topic/25886-obnovlenie-foruma-ipb-215-do-ips-4x/?do=findComment&comment=231492</link>
-            <description>Обновление форума IPB 2.1.5 до IPS 4.x</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:27 GMT</pubDate>
-            <guid isPermaLink='false'>https://ipbmafia.ru/topic/25886-obnovlenie-foruma-ipb-215-do-ips-4x/?do=findComment&comment=231492_2026-04-21 04:12:27</guid>
-        </item>
-        <item>
-            <title>Обновление форума IPB 2.1.5 до IPS 4.x</title>
-            <link>https://ipbmafia.ru/topic/25886-obnovlenie-foruma-ipb-215-do-ips-4x/?do=findComment&comment=231491</link>
-            <description>Обновление форума IPB 2.1.5 до IPS 4.x</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:27 GMT</pubDate>
-            <guid isPermaLink='false'>https://ipbmafia.ru/topic/25886-obnovlenie-foruma-ipb-215-do-ips-4x/?do=findComment&comment=231491_2026-04-21 04:12:27</guid>
-        </item>
-        <item>
-            <title>Обновление форума IPB 2.1.5 до IPS 4.x</title>
-            <link>https://ipbmafia.ru/topic/25886-obnovlenie-foruma-ipb-215-do-ips-4x/?do=findComment&comment=231490</link>
-            <description>Обновление форума IPB 2.1.5 до IPS 4.x</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:27 GMT</pubDate>
-            <guid isPermaLink='false'>https://ipbmafia.ru/topic/25886-obnovlenie-foruma-ipb-215-do-ips-4x/?do=findComment&comment=231490_2026-04-21 04:12:27</guid>
+            <title>Готовый список правил для блокировки ботов через Nginx.conf</title>
+            <link>https://ipbmafia.ru/topic/26093-%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B9-%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB-%D0%B4%D0%BB%D1%8F-%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B1%D0%BE%D1%82%D0%BE%D0%B2-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-nginxconf/?do=findComment&comment=231496</link>
+            <description>Готовый список правил для блокировки ботов через Nginx.conf</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:29 GMT</pubDate>
+            <guid isPermaLink='false'>https://ipbmafia.ru/topic/26093-%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B9-%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB-%D0%B4%D0%BB%D1%8F-%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B1%D0%BE%D1%82%D0%BE%D0%B2-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-nginxconf/?do=findComment&comment=231496_2026-04-22 04:08:29</guid>
         </item>
         <item>
             <title>Что думаете? Маразм крепчает...  Владельцев доменов .ru, .рф и .su обяжут проходить регистрацию через Госуслуги. С 1 сентября</title>
-            <link>https://ipbmafia.ru/topic/37861-chto-dumaete-marazm-krepchaet-vladelcev-domenov-ru-rf-i-su-obyazhut-prohodit-registraciyu-cherez-gosuslugi-s-1-sentyabrya/?do=findComment&comment=231489</link>
+            <link>https://ipbmafia.ru/topic/37861-chto-dumaete-marazm-krepchaet-vladelcev-domenov-ru-rf-i-su-obyazhut-prohodit-registraciyu-cherez-gosuslugi-s-1-sentyabrya/?do=findComment&comment=231495</link>
             <description>Что думаете? Маразм крепчает...  Владельцев доменов .ru, .рф и .su обяжут проходить регистрацию через Госуслуги. С 1 сентября</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:27 GMT</pubDate>
-            <guid isPermaLink='false'>https://ipbmafia.ru/topic/37861-chto-dumaete-marazm-krepchaet-vladelcev-domenov-ru-rf-i-su-obyazhut-prohodit-registraciyu-cherez-gosuslugi-s-1-sentyabrya/?do=findComment&comment=231489_2026-04-21 04:12:27</guid>
+            <pubDate>Wed, 22 Apr 2026 04:08:29 GMT</pubDate>
+            <guid isPermaLink='false'>https://ipbmafia.ru/topic/37861-chto-dumaete-marazm-krepchaet-vladelcev-domenov-ru-rf-i-su-obyazhut-prohodit-registraciyu-cherez-gosuslugi-s-1-sentyabrya/?do=findComment&comment=231495_2026-04-22 04:08:29</guid>
         </item>
         <item>
-            <title>~ Vaild.Work · Selling valid PayPal/Cashapp cards, valid transfers, and Western Union</title>
-            <link>https://cardforum.cc/showthread.php?tid=15191</link>
-            <description>~ Vaild.Work · Selling valid PayPal/Cashapp cards, valid transfers, and Western Union</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15191_2026-04-21 04:12:26</guid>
+            <title>Что думаете? Маразм крепчает...  Владельцев доменов .ru, .рф и .su обяжут проходить регистрацию через Госуслуги. С 1 сентября</title>
+            <link>https://ipbmafia.ru/topic/37861-chto-dumaete-marazm-krepchaet-vladelcev-domenov-ru-rf-i-su-obyazhut-prohodit-registraciyu-cherez-gosuslugi-s-1-sentyabrya/?do=findComment&comment=231494</link>
+            <description>Что думаете? Маразм крепчает...  Владельцев доменов .ru, .рф и .su обяжут проходить регистрацию через Госуслуги. С 1 сентября</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:29 GMT</pubDate>
+            <guid isPermaLink='false'>https://ipbmafia.ru/topic/37861-chto-dumaete-marazm-krepchaet-vladelcev-domenov-ru-rf-i-su-obyazhut-prohodit-registraciyu-cherez-gosuslugi-s-1-sentyabrya/?do=findComment&comment=231494_2026-04-22 04:08:29</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15190</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15190_2026-04-21 04:12:26</guid>
+            <title>I Tried Playing Agario “Seriously”… It Didn’t Go As Planned</title>
+            <link>https://cardforum.cc/showthread.php?tid=15211</link>
+            <description>I Tried Playing Agario “Seriously”… It Didn’t Go As Planned</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15211_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15189</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15189_2026-04-21 04:12:26</guid>
+            <title>Thinking about trying out some new entertainment apps, any favorites?</title>
+            <link>https://cardforum.cc/showthread.php?tid=15210</link>
+            <description>Thinking about trying out some new entertainment apps, any favorites?</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15210_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15188</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15188_2026-04-21 04:12:26</guid>
+            <title>MDPHP freebase is online te koop tegen gereduceerde prijzen, zonder recept, in België</title>
+            <link>https://cardforum.cc/showthread.php?tid=15209</link>
+            <description>MDPHP freebase is online te koop tegen gereduceerde prijzen, zonder recept, in België</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15209_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15187</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15187_2026-04-21 04:12:26</guid>
+            <title>Kyc. Bypass Document Verification | Proof of Address · Income · Funds · Contracts · S</title>
+            <link>https://cardforum.cc/showthread.php?tid=15208</link>
+            <description>Kyc. Bypass Document Verification | Proof of Address · Income · Funds · Contracts · S</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15208_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15186</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15186_2026-04-21 04:12:26</guid>
+            <title>Koop Alpha-PVP (FLAKKA) van topkwaliteit online zonder recept in België.</title>
+            <link>https://cardforum.cc/showthread.php?tid=15207</link>
+            <description>Koop Alpha-PVP (FLAKKA) van topkwaliteit online zonder recept in België.</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15207_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15185</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15185_2026-04-21 04:12:26</guid>
+            <title>Amfetaminepoeder (speed) online te koop tegen gereduceerde prijzen zonder recept</title>
+            <link>https://cardforum.cc/showthread.php?tid=15206</link>
+            <description>Amfetaminepoeder (speed) online te koop tegen gereduceerde prijzen zonder recept</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15206_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15184</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15184_2026-04-21 04:12:26</guid>
+            <title>DeepChecker – CVV Checker</title>
+            <link>https://cardforum.cc/showthread.php?tid=15205</link>
+            <description>DeepChecker – CVV Checker</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15205_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15183</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15183_2026-04-21 04:12:26</guid>
+            <title>Papel A4 con infusión de K2 a la venta online a precios rebajados sin receta en ES</title>
+            <link>https://cardforum.cc/showthread.php?tid=15204</link>
+            <description>Papel A4 con infusión de K2 a la venta online a precios rebajados sin receta en ES</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15204_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15182</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15182_2026-04-21 04:12:26</guid>
+            <title>USA Permanent Residents | Leads + KYC & SSN and more</title>
+            <link>https://cardforum.cc/showthread.php?tid=15203</link>
+            <description>USA Permanent Residents | Leads + KYC & SSN and more</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15203_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15181</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15181_2026-04-21 04:12:26</guid>
+            <title>ADB-BUTINACA líquido de 100 ml a la venta online con precios rebajados sin receta</title>
+            <link>https://cardforum.cc/showthread.php?tid=15202</link>
+            <description>ADB-BUTINACA líquido de 100 ml a la venta online con precios rebajados sin receta</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15202_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Fentanilo en polvo a la venta online a precios rebajados sin receta en España.</title>
-            <link>https://cardforum.cc/showthread.php?tid=15180</link>
-            <description>Fentanilo en polvo a la venta online a precios rebajados sin receta en España.</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15180_2026-04-21 04:12:26</guid>
+            <title>GHB en polvo a la venta online a precios rebajados sin receta en ESPAÑA.</title>
+            <link>https://cardforum.cc/showthread.php?tid=15201</link>
+            <description>GHB en polvo a la venta online a precios rebajados sin receta en ESPAÑA.</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15201_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Compre Alpha-PHP y 4F-MPH de la más alta calidad en línea sin receta en ESPAÑA.</title>
-            <link>https://cardforum.cc/showthread.php?tid=15179</link>
-            <description>Compre Alpha-PHP y 4F-MPH de la más alta calidad en línea sin receta en ESPAÑA.</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15179_2026-04-21 04:12:26</guid>
+            <title>Cocaína crack y cocaína en polvo a la venta online a precios rebajados sin receta</title>
+            <link>https://cardforum.cc/showthread.php?tid=15200</link>
+            <description>Cocaína crack y cocaína en polvo a la venta online a precios rebajados sin receta</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15200_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Clone Cards</title>
-            <link>https://cardforum.cc/showthread.php?tid=15178</link>
-            <description>Clone Cards</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15178_2026-04-21 04:12:26</guid>
+            <title>Discover Your Clicking Speed: A Beginner's Guide to Online CPS Testing</title>
+            <link>https://cardforum.cc/showthread.php?tid=15199</link>
+            <description>Discover Your Clicking Speed: A Beginner's Guide to Online CPS Testing</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15199_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Clone Carda</title>
-            <link>https://cardforum.cc/showthread.php?tid=15177</link>
-            <description>Clone Carda</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15177_2026-04-21 04:12:26</guid>
+            <title>Where to download movies for my new 4K TV?</title>
+            <link>https://cardforum.cc/showthread.php?tid=15198</link>
+            <description>Where to download movies for my new 4K TV?</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15198_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Clone Cards</title>
-            <link>https://cardforum.cc/showthread.php?tid=15176</link>
-            <description>Clone Cards</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15176_2026-04-21 04:12:26</guid>
+            <title>Comprar Medikinet 20 mg sin receta en Madrid</title>
+            <link>https://cardforum.cc/showthread.php?tid=15197</link>
+            <description>Comprar Medikinet 20 mg sin receta en Madrid</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15197_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Clone Cards</title>
-            <link>https://cardforum.cc/showthread.php?tid=15175</link>
-            <description>Clone Cards</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15175_2026-04-21 04:12:26</guid>
+            <title>Does anyone know this CVV store? My friend told me it's great</title>
+            <link>https://cardforum.cc/showthread.php?tid=15196</link>
+            <description>Does anyone know this CVV store? My friend told me it's great</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15196_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Clone Cards</title>
-            <link>https://cardforum.cc/showthread.php?tid=15174</link>
-            <description>Clone Cards</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15174_2026-04-21 04:12:26</guid>
+            <title>Does anyone know this CVV store? My friend told me it's great</title>
+            <link>https://cardforum.cc/showthread.php?tid=15195</link>
+            <description>Does anyone know this CVV store? My friend told me it's great</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15195_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Clone Cards</title>
-            <link>https://cardforum.cc/showthread.php?tid=15173</link>
-            <description>Clone Cards</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15173_2026-04-21 04:12:26</guid>
+            <title>Does anyone know this CVV store? My friend told me it's great</title>
+            <link>https://cardforum.cc/showthread.php?tid=15194</link>
+            <description>Does anyone know this CVV store? My friend told me it's great</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15194_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Compre "NEP" de alta calidad en línea sin receta en ESPAÑA.</title>
-            <link>https://cardforum.cc/showthread.php?tid=15172</link>
-            <description>Compre "NEP" de alta calidad en línea sin receta en ESPAÑA.</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15172_2026-04-21 04:12:26</guid>
+            <title>Does anyone know this CVV store? My friend told me it's great</title>
+            <link>https://cardforum.cc/showthread.php?tid=15193</link>
+            <description>Does anyone know this CVV store? My friend told me it's great</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15193_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>I need bulk ebt For cashout any spammer here reach me on tele @ebtpundit</title>
-            <link>https://cardforum.cc/showthread.php?tid=15171</link>
-            <description>I need bulk ebt For cashout any spammer here reach me on tele @ebtpundit</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15171_2026-04-21 04:12:26</guid>
+            <title>https://seller.valeriamarket.cc/| Fresh CC , Cvv Fullz Shop</title>
+            <link>https://cardforum.cc/showthread.php?tid=15192</link>
+            <description>https://seller.valeriamarket.cc/| Fresh CC , Cvv Fullz Shop</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:28 GMT</pubDate>
+            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15192_2026-04-22 04:08:28</guid>
         </item>
         <item>
-            <title>Führerschein online kaufen ohne Prüfung oder MPU Kaufen Sie ganz einfach einen deutsc</title>
-            <link>https://cardforum.cc/showthread.php?tid=15170</link>
-            <description>Führerschein online kaufen ohne Prüfung oder MPU Kaufen Sie ganz einfach einen deutsc</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15170_2026-04-21 04:12:26</guid>
+            <title>15000 мвидео бонусы дешево</title>
+            <link>https://mipped.com/f/threads/15000-mvideo-bonusy-deshevo.324254/</link>
+            <description>15000 мвидео бонусы дешево</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:25 GMT</pubDate>
+            <guid isPermaLink='false'>https://mipped.com/f/threads/15000-mvideo-bonusy-deshevo.324254/_2026-04-22 04:08:25</guid>
         </item>
         <item>
-            <title>Buy driver’s license to legally drive in any EU country.   We will help you obtain a</title>
-            <link>https://cardforum.cc/showthread.php?tid=15169</link>
-            <description>Buy driver’s license to legally drive in any EU country.   We will help you obtain a</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15169_2026-04-21 04:12:26</guid>
+            <title>Раздача промокодов PRIMIER, IVI, KION и т.д. (общая тема)</title>
+            <link>https://mipped.com/f/threads/razdacha-promokodov-primier-ivi-kion-i-t-d-obshchaya-tema.229798/</link>
+            <description>Раздача промокодов PRIMIER, IVI, KION и т.д. (общая тема)</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:25 GMT</pubDate>
+            <guid isPermaLink='false'>https://mipped.com/f/threads/razdacha-promokodov-primier-ivi-kion-i-t-d-obshchaya-tema.229798/_2026-04-22 04:08:25</guid>
         </item>
         <item>
-            <title>Koop officiële documenten online zonder beperkingen. U kunt eenvoudig officiële docum</title>
-            <link>https://cardforum.cc/showthread.php?tid=15168</link>
-            <description>Koop officiële documenten online zonder beperkingen. U kunt eenvoudig officiële docum</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15168_2026-04-21 04:12:26</guid>
+            <title>Раздача Аккаунтов START.RU-MORE.TV-OKKO</title>
+            <link>https://mipped.com/f/threads/razdacha-akkauntov-start-ru-more-tv-okko.229858/</link>
+            <description>Раздача Аккаунтов START.RU-MORE.TV-OKKO</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:25 GMT</pubDate>
+            <guid isPermaLink='false'>https://mipped.com/f/threads/razdacha-akkauntov-start-ru-more-tv-okko.229858/_2026-04-22 04:08:25</guid>
         </item>
         <item>
-            <title>Buy quality bank notes for USD, EUR, GBP, CAD and AUD in major denominations  We offe</title>
-            <link>https://cardforum.cc/showthread.php?tid=15167</link>
-            <description>Buy quality bank notes for USD, EUR, GBP, CAD and AUD in major denominations  We offe</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15167_2026-04-21 04:12:26</guid>
+            <title>📱Burner Numbers For Transactions📱</title>
+            <link>https://ascarding.net/threads/7591/</link>
+            <description>📱Burner Numbers For Transactions📱</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:24 GMT</pubDate>
+            <guid isPermaLink='false'>https://ascarding.net/threads/7591/_2026-04-22 04:08:24</guid>
         </item>
         <item>
-            <title>Führerschein online kaufen ohne Prüfung   Kaufen Sie Ihren Führerschein ohne Prüfung</title>
-            <link>https://cardforum.cc/showthread.php?tid=15166</link>
-            <description>Führerschein online kaufen ohne Prüfung   Kaufen Sie Ihren Führerschein ohne Prüfung</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15166_2026-04-21 04:12:26</guid>
+            <title>📢Yo folks, I’m thrilled to introduce to you the amazing cash flips to all countries ap.</title>
+            <link>https://ascarding.net/threads/17411/</link>
+            <description>📢Yo folks, I’m thrilled to introduce to you the amazing cash flips to all countries ap.</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:24 GMT</pubDate>
+            <guid isPermaLink='false'>https://ascarding.net/threads/17411/_2026-04-22 04:08:24</guid>
         </item>
         <item>
-            <title>Купите водительские права онлайн без экзамена в любой стране ЕС, России, ЮАР, Марокко</title>
-            <link>https://cardforum.cc/showthread.php?tid=15165</link>
-            <description>Купите водительские права онлайн без экзамена в любой стране ЕС, России, ЮАР, Марокко</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15165_2026-04-21 04:12:26</guid>
+            <title>Novproxy✅ Free trial available | ✅ $0.5 per GB | ✅ Global pure IP | ✅ Unlimited sessions | ✅ $0.02 per IP</title>
+            <link>https://ascarding.net/threads/17405/</link>
+            <description>Novproxy✅ Free trial available | ✅ $0.5 per GB | ✅ Global pure IP | ✅ Unlimited sessions | ✅ $0.02 per IP</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:24 GMT</pubDate>
+            <guid isPermaLink='false'>https://ascarding.net/threads/17405/_2026-04-22 04:08:24</guid>
         </item>
         <item>
-            <title>Führerschein online kaufen ohne Prüfung   Kaufen Sie Ihren Führerschein ohne Prüfung</title>
-            <link>https://cardforum.cc/showthread.php?tid=15164</link>
-            <description>Führerschein online kaufen ohne Prüfung   Kaufen Sie Ihren Führerschein ohne Prüfung</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15164_2026-04-21 04:12:26</guid>
+            <title>922.549 Lines ✅  Europa Germany Mixed Combolist</title>
+            <link>https://hard-tm.su/threads/161214/</link>
+            <description>922.549 Lines ✅  Europa Germany Mixed Combolist</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/161214/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Apart from buying driving license, you will also be able to buy passports, buy reside</title>
-            <link>https://cardforum.cc/showthread.php?tid=15163</link>
-            <description>Apart from buying driving license, you will also be able to buy passports, buy reside</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15163_2026-04-21 04:12:26</guid>
+            <title>Учиться на механике или на автомате?</title>
+            <link>https://hard-tm.su/threads/112858/</link>
+            <description>Учиться на механике или на автомате?</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/112858/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15162</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15162_2026-04-21 04:12:26</guid>
+            <title>Ищу работу по размещению вашего рекламного объявления(продажа,услуга) на разных форумах.Адреса форумов у меня есть.</title>
+            <link>https://hard-tm.su/threads/159888/</link>
+            <description>Ищу работу по размещению вашего рекламного объявления(продажа,услуга) на разных форумах.Адреса форумов у меня есть.</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/159888/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15161</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15161_2026-04-21 04:12:26</guid>
+            <title>1 108 Good HOTMAIL GOODS D4RKNETHUB CLOUD</title>
+            <link>https://hard-tm.su/threads/161213/</link>
+            <description>1 108 Good HOTMAIL GOODS D4RKNETHUB CLOUD</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/161213/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15160</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15160_2026-04-21 04:12:26</guid>
+            <title>Сонамацу альтуха с тт</title>
+            <link>https://hard-tm.su/threads/160560/</link>
+            <description>Сонамацу альтуха с тт</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/160560/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15159</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15159_2026-04-21 04:12:26</guid>
+            <title>5 сочных девок, какую выбираешь?</title>
+            <link>https://hard-tm.su/threads/4180/</link>
+            <description>5 сочных девок, какую выбираешь?</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/4180/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Comprar Rubifen sin receta</title>
-            <link>https://cardforum.cc/showthread.php?tid=15158</link>
-            <description>Comprar Rubifen sin receta</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15158_2026-04-21 04:12:26</guid>
+            <title>523.233 Lines ✅  Combolist Target Hotmail Domain</title>
+            <link>https://hard-tm.su/threads/161211/</link>
+            <description>523.233 Lines ✅  Combolist Target Hotmail Domain</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/161211/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Compre Alpha-PiHP y Alpha-PHiP de alta calidad en línea sin receta en ESPAÑA.</title>
-            <link>https://cardforum.cc/showthread.php?tid=15157</link>
-            <description>Compre Alpha-PiHP y Alpha-PHiP de alta calidad en línea sin receta en ESPAÑA.</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15157_2026-04-21 04:12:26</guid>
+            <title>Ни один вирус не проскочит на твой ПК — за тебя уже собрали топ из 7️⃣ жестких онлайн-сканеров</title>
+            <link>https://hard-tm.su/threads/161153/</link>
+            <description>Ни один вирус не проскочит на твой ПК — за тебя уже собрали топ из 7️⃣ жестких онлайн-сканеров</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/161153/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15156</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15156_2026-04-21 04:12:26</guid>
+            <title>Посоветуйте аниме</title>
+            <link>https://hard-tm.su/threads/161190/</link>
+            <description>Посоветуйте аниме</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/161190/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15155</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15155_2026-04-21 04:12:26</guid>
+            <title>[120.315] Corp SMTP Target</title>
+            <link>https://hard-tm.su/threads/161209/</link>
+            <description>[120.315] Corp SMTP Target</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/161209/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15154</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15154_2026-04-21 04:12:26</guid>
+            <title>❗️В CS2 завезли новые анимации — но, как обычно, не без нюансов</title>
+            <link>https://hard-tm.su/threads/161071/</link>
+            <description>❗️В CS2 завезли новые анимации — но, как обычно, не без нюансов</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/161071/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15153</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15153_2026-04-21 04:12:26</guid>
+            <title>какой сериал лучше "Сопрано", "Во все тяжкие", "Прослушка".</title>
+            <link>https://hard-tm.su/threads/97687/</link>
+            <description>какой сериал лучше "Сопрано", "Во все тяжкие", "Прослушка".</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/97687/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15152</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15152_2026-04-21 04:12:26</guid>
+            <title>Какая озвучка сериалов лучше?</title>
+            <link>https://hard-tm.su/threads/7428/</link>
+            <description>Какая озвучка сериалов лучше?</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/7428/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15151</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15151_2026-04-21 04:12:26</guid>
+            <title>подскажите аниме по типу пламенной бригады пожарных</title>
+            <link>https://hard-tm.su/threads/161207/</link>
+            <description>подскажите аниме по типу пламенной бригады пожарных</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/161207/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15150</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15150_2026-04-21 04:12:26</guid>
+            <title>Ваш самый любимый фильм?!</title>
+            <link>https://hard-tm.su/threads/116/</link>
+            <description>Ваш самый любимый фильм?!</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:23 GMT</pubDate>
+            <guid isPermaLink='false'>https://hard-tm.su/threads/116/_2026-04-22 04:08:23</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15149</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15149_2026-04-21 04:12:26</guid>
+            <title>TalorData - 🎉99.9% Stable Uptime | ✅Free Trial | $0.58/GB 🔥</title>
+            <link>https://blackbones.net/threads/talordata-99-9-stable-uptime-free-trial-0-58-gb.23707/</link>
+            <description>TalorData - 🎉99.9% Stable Uptime | ✅Free Trial | $0.58/GB 🔥</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/talordata-99-9-stable-uptime-free-trial-0-58-gb.23707/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15148</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15148_2026-04-21 04:12:26</guid>
+            <title>💎Detect.Expert💎 Proxies — professional solutions for anonymity, verification, and scalable growth</title>
+            <link>https://blackbones.net/threads/detect-expert-proxies-professional-solutions-for-anonymity-verification-and-scalable-growth.21556/</link>
+            <description>💎Detect.Expert💎 Proxies — professional solutions for anonymity, verification, and scalable growth</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/detect-expert-proxies-professional-solutions-for-anonymity-verification-and-scalable-growth.21556/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</title>
-            <link>https://cardforum.cc/showthread.php?tid=15147</link>
-            <description>Buy real and fake Passports, Drivers License , Id Card (WHATSAPP：+33 7 53827675)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15147_2026-04-21 04:12:26</guid>
+            <title>Sell photo/scans of documents from all over the world</title>
+            <link>https://blackbones.net/threads/sell-photo-scans-of-documents-from-all-over-the-world.14312/</link>
+            <description>Sell photo/scans of documents from all over the world</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/sell-photo-scans-of-documents-from-all-over-the-world.14312/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>Cash out Instantly Bank Transfer PayPal Transfer CashApp Zelle Venmo WU Transfer Bug.</title>
-            <link>https://cardforum.cc/showthread.php?tid=15146</link>
-            <description>Cash out Instantly Bank Transfer PayPal Transfer CashApp Zelle Venmo WU Transfer Bug.</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15146_2026-04-21 04:12:26</guid>
+            <title>FBI Takedown of W3LL Phishing Service leads to Developer Arrest.</title>
+            <link>https://blackbones.net/threads/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest.23897/</link>
+            <description>FBI Takedown of W3LL Phishing Service leads to Developer Arrest.</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest.23897/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</title>
-            <link>https://cardforum.cc/showthread.php?tid=15145</link>
-            <description>Instant cash out CC Fullz TopUp PayPal CashApp Skrill Zelle Venmo WU Transfer Bug</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15145_2026-04-21 04:12:26</guid>
+            <title>SMS-READY.COM | Sim-карты для проверки SMS | Non-VoIP US Phone Numbers | 150+ Countries</title>
+            <link>https://blackbones.net/threads/sms-ready-com-sim-karty-dlja-proverki-sms-non-voip-us-phone-numbers-150-countries.16315/</link>
+            <description>SMS-READY.COM | Sim-карты для проверки SMS | Non-VoIP US Phone Numbers | 150+ Countries</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/sms-ready-com-sim-karty-dlja-proverki-sms-non-voip-us-phone-numbers-150-countries.16315/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>Legit CC Cvv Non Vbv Fullz Bank to Bank Transfer Drop Wire Logs PayPal Zelle Venmo Ap</title>
-            <link>https://cardforum.cc/showthread.php?tid=15144</link>
-            <description>Legit CC Cvv Non Vbv Fullz Bank to Bank Transfer Drop Wire Logs PayPal Zelle Venmo Ap</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15144_2026-04-21 04:12:26</guid>
+            <title>NEW PART 6 THE BEST BIN 3D PASS 2025 CANADA</title>
+            <link>https://blackbones.net/threads/new-part-6-the-best-bin-3d-pass-2025-canada.22273/</link>
+            <description>NEW PART 6 THE BEST BIN 3D PASS 2025 CANADA</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/new-part-6-the-best-bin-3d-pass-2025-canada.22273/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>Fresh CC Fullz Bank Transfer WU Transfer Bug PayPal Transfer Ship Shop Administrative</title>
-            <link>https://cardforum.cc/showthread.php?tid=15143</link>
-            <description>Fresh CC Fullz Bank Transfer WU Transfer Bug PayPal Transfer Ship Shop Administrative</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15143_2026-04-21 04:12:26</guid>
+            <title>I need USA/Canada workers. I'm paying $750-$2500+ a month</title>
+            <link>https://blackbones.net/threads/i-need-usa-canada-workers-im-paying-750-2500-a-month.22385/</link>
+            <description>I need USA/Canada workers. I'm paying $750-$2500+ a month</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/i-need-usa-canada-workers-im-paying-750-2500-a-month.22385/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>100% Verified PayPal Transfer CashApp Transfer WU Transfer Bug MoneyGram CC Cvv Fullz</title>
-            <link>https://cardforum.cc/showthread.php?tid=15142</link>
-            <description>100% Verified PayPal Transfer CashApp Transfer WU Transfer Bug MoneyGram CC Cvv Fullz</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:26 GMT</pubDate>
-            <guid isPermaLink='false'>https://cardforum.cc/showthread.php?tid=15142_2026-04-21 04:12:26</guid>
+            <title>🔥💰 New Crypto method up to $100k Monthly for beginners and pros 🔥💰</title>
+            <link>https://blackbones.net/threads/new-crypto-method-up-to-100k-monthly-for-beginners-and-pros.23706/</link>
+            <description>🔥💰 New Crypto method up to $100k Monthly for beginners and pros 🔥💰</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/new-crypto-method-up-to-100k-monthly-for-beginners-and-pros.23706/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>Бомбер. Телефонный флуд. Телефонный спам. Работаем через SIP. Spam call services. Call Bomber. Работаем по всему миру.100% анонимность.</title>
-            <link>https://mipped.com/f/threads/bomber-telefonnyi-flud-telefonnyi-spam-rabotayem-cherez-sip-spam-call-services-call-bomber-rabotayem-po-vsemu-miru-100-anonimnost.145653/</link>
-            <description>Бомбер. Телефонный флуд. Телефонный спам. Работаем через SIP. Spam call services. Call Bomber. Работаем по всему миру.100% анонимность.</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:21 GMT</pubDate>
-            <guid isPermaLink='false'>https://mipped.com/f/threads/bomber-telefonnyi-flud-telefonnyi-spam-rabotayem-cherez-sip-spam-call-services-call-bomber-rabotayem-po-vsemu-miru-100-anonimnost.145653/_2026-04-21 04:12:21</guid>
+            <title>Method to make money without any investment</title>
+            <link>https://blackbones.net/threads/method-to-make-money-without-any-investment.11190/</link>
+            <description>Method to make money without any investment</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/method-to-make-money-without-any-investment.11190/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>Долгосрочное ведение соцсетей | TikTok | Instagram | YouTube | VK</title>
-            <link>https://mipped.com/f/threads/dolgosrochnoye-vedeniye-sotssetei-tiktok-instagram-youtube-vk.313781/</link>
-            <description>Долгосрочное ведение соцсетей | TikTok | Instagram | YouTube | VK</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:21 GMT</pubDate>
-            <guid isPermaLink='false'>https://mipped.com/f/threads/dolgosrochnoye-vedeniye-sotssetei-tiktok-instagram-youtube-vk.313781/_2026-04-21 04:12:21</guid>
+            <title>🦖 CCZAUVR.LIVE 🦖 | 📌 FROM 2008 TILL NOW 📌 | 💸 FOR ALL BUDGET AND PURPOSES 💸 | 📣 FOR PROFESSIONALS 📣 | 🦖 CCZAUVR.ONE 🦖</title>
+            <link>https://blackbones.net/threads/cczauvr-live-from-2008-till-now-for-all-budget-and-purposes-for-professionals-cczauvr-one.23878/</link>
+            <description>🦖 CCZAUVR.LIVE 🦖 | 📌 FROM 2008 TILL NOW 📌 | 💸 FOR ALL BUDGET AND PURPOSES 💸 | 📣 FOR PROFESSIONALS 📣 | 🦖 CCZAUVR.ONE 🦖</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/cczauvr-live-from-2008-till-now-for-all-budget-and-purposes-for-professionals-cczauvr-one.23878/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>BIN selection Tutorial</title>
-            <link>https://ascarding.net/threads/1337/</link>
-            <description>BIN selection Tutorial</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:20 GMT</pubDate>
-            <guid isPermaLink='false'>https://ascarding.net/threads/1337/_2026-04-21 04:12:20</guid>
+            <title>Iphone Cardable Website + 1 Working Bin</title>
+            <link>https://blackbones.net/threads/iphone-cardable-website-1-working-bin.361/</link>
+            <description>Iphone Cardable Website + 1 Working Bin</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:22 GMT</pubDate>
+            <guid isPermaLink='false'>https://blackbones.net/threads/iphone-cardable-website-1-working-bin.361/_2026-04-22 04:08:22</guid>
         </item>
         <item>
-            <title>📢Yo folks, I’m thrilled to introduce to you the amazing cash flips to all countries</title>
-            <link>https://ascarding.net/threads/17404/</link>
-            <description>📢Yo folks, I’m thrilled to introduce to you the amazing cash flips to all countries</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:20 GMT</pubDate>
-            <guid isPermaLink='false'>https://ascarding.net/threads/17404/_2026-04-21 04:12:20</guid>
+            <title>922.549 Lines ✅  Europa Germany Mixed Combolist</title>
+            <link>https://forum.gerki.ws/threads/146151/</link>
+            <description>922.549 Lines ✅  Europa Germany Mixed Combolist</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:19 GMT</pubDate>
+            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146151/_2026-04-22 04:08:19</guid>
         </item>
         <item>
-            <title>Слив шлюхи/опрос по дальнейшему развитию на форуме.</title>
-            <link>https://hard-tm.su/threads/125597/</link>
-            <description>Слив шлюхи/опрос по дальнейшему развитию на форуме.</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/125597/_2026-04-21 04:12:18</guid>
+            <title>523.233 Lines ✅  Combolist Target Hotmail Domain</title>
+            <link>https://forum.gerki.ws/threads/146149/</link>
+            <description>523.233 Lines ✅  Combolist Target Hotmail Domain</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:19 GMT</pubDate>
+            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146149/_2026-04-22 04:08:19</guid>
         </item>
         <item>
-            <title>большой пак фото №3</title>
-            <link>https://hard-tm.su/threads/126311/</link>
-            <description>большой пак фото №3</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/126311/_2026-04-21 04:12:18</guid>
+            <title>1.242.319 Lines ✅  Mixed Target Yahoo Combolist</title>
+            <link>https://forum.gerki.ws/threads/146148/</link>
+            <description>1.242.319 Lines ✅  Mixed Target Yahoo Combolist</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:19 GMT</pubDate>
+            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146148/_2026-04-22 04:08:19</guid>
         </item>
         <item>
-            <title>Бывшая, пацанка</title>
-            <link>https://hard-tm.su/threads/137199/</link>
-            <description>Бывшая, пацанка</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/137199/_2026-04-21 04:12:18</guid>
+            <title>♋ 100k MIX Base With Valid [FORUMS] ♋ (2)</title>
+            <link>https://forum.gerki.ws/threads/146147/</link>
+            <description>♋ 100k MIX Base With Valid [FORUMS] ♋ (2)</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:19 GMT</pubDate>
+            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146147/_2026-04-22 04:08:19</guid>
         </item>
         <item>
-            <title>Слив няшки без хайда</title>
-            <link>https://hard-tm.su/threads/124334/</link>
-            <description>Слив няшки без хайда</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/124334/_2026-04-21 04:12:18</guid>
+            <title>АНОНИМНЫЙ НОУТБУК И МАК!💻💻💻</title>
+            <link>https://forum.gerki.ws/threads/146146/</link>
+            <description>АНОНИМНЫЙ НОУТБУК И МАК!💻💻💻</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:19 GMT</pubDate>
+            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146146/_2026-04-22 04:08:19</guid>
         </item>
         <item>
-            <title>⚡️ Делаем из Windows 11 КОНФЕТКУ — Microsoft буквально заставляет работяг перейти на новую ОС, и мы собрали для вас ОГРОМНУЮ подборку сборок, сервисов</title>
-            <link>https://hard-tm.su/threads/137048/</link>
-            <description>⚡️ Делаем из Windows 11 КОНФЕТКУ — Microsoft буквально заставляет работяг перейти на новую ОС, и мы собрали для вас ОГРОМНУЮ подборку сборок, сервисов</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/137048/_2026-04-21 04:12:18</guid>
+            <title>1.285.633 Lines ✅  Mixed Country Hotmail com COmbolist 2026</title>
+            <link>https://forum.gerki.ws/threads/146145/</link>
+            <description>1.285.633 Lines ✅  Mixed Country Hotmail com COmbolist 2026</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:19 GMT</pubDate>
+            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146145/_2026-04-22 04:08:19</guid>
         </item>
         <item>
-            <title>Посоветуйте нормальный кооп для двоих</title>
-            <link>https://hard-tm.su/threads/114906/</link>
-            <description>Посоветуйте нормальный кооп для двоих</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/114906/_2026-04-21 04:12:18</guid>
+            <title>Анонимные 🌐 Telegram Аккаунты</title>
+            <link>https://forum.gerki.ws/threads/146144/</link>
+            <description>Анонимные 🌐 Telegram Аккаунты</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:19 GMT</pubDate>
+            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146144/_2026-04-22 04:08:19</guid>
         </item>
         <item>
-            <title>869.036 Lines ✅  Germany de Combolist Mixed Target</title>
-            <link>https://hard-tm.su/threads/160982/</link>
-            <description>869.036 Lines ✅  Germany de Combolist Mixed Target</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/160982/_2026-04-21 04:12:18</guid>
+            <title>Разблокирую транзакцию ушедшую на AML/KYC проверку обменника</title>
+            <link>https://forum.gerki.ws/threads/145241/</link>
+            <description>Разблокирую транзакцию ушедшую на AML/KYC проверку обменника</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:19 GMT</pubDate>
+            <guid isPermaLink='false'>https://forum.gerki.ws/threads/145241/_2026-04-22 04:08:19</guid>
         </item>
         <item>
-            <title>[265.763]✅ [hotmail.com, .fr, .es] Casino Target Combolist</title>
-            <link>https://hard-tm.su/threads/160981/</link>
-            <description>[265.763]✅ [hotmail.com, .fr, .es] Casino Target Combolist</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/160981/_2026-04-21 04:12:18</guid>
+            <title>Для быстрых, дерзких, как пуля резких. НЕ НАРКО.</title>
+            <link>https://forum.gerki.ws/threads/136450/</link>
+            <description>Для быстрых, дерзких, как пуля резких. НЕ НАРКО.</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:19 GMT</pubDate>
+            <guid isPermaLink='false'>https://forum.gerki.ws/threads/136450/_2026-04-22 04:08:19</guid>
         </item>
         <item>
-            <title>Тян 3</title>
-            <link>https://hard-tm.su/threads/160673/</link>
-            <description>Тян 3</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/160673/_2026-04-21 04:12:18</guid>
+            <title>[8 Lines] [readinggarden.chinese.ephhk.com] From Cloud By X Forums.st</title>
+            <link>https://xforums.st/threads/8-lines-readinggarden-chinese-ephhk-com-from-cloud-by-x-forums-st.120812/</link>
+            <description>[8 Lines] [readinggarden.chinese.ephhk.com] From Cloud By X Forums.st</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/8-lines-readinggarden-chinese-ephhk-com-from-cloud-by-x-forums-st.120812/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>❗️До «цифрового суверенитета» России ещё далеко — по словам Антона Горелкина, пройдена лишь половина пути</title>
-            <link>https://hard-tm.su/threads/160934/</link>
-            <description>❗️До «цифрового суверенитета» России ещё далеко — по словам Антона Горелкина, пройдена лишь половина пути</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/160934/_2026-04-21 04:12:18</guid>
+            <title>Www.tootchina.com/Leaks Data 41.700 Students/China.</title>
+            <link>https://xforums.st/threads/www-tootchina-com-leaks-data-41-700-students-china.275/</link>
+            <description>Www.tootchina.com/Leaks Data 41.700 Students/China.</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/www-tootchina-com-leaks-data-41-700-students-china.275/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>Какая сейчас лучшая нейронка для генерации видео при помощи промта и фото.</title>
-            <link>https://hard-tm.su/threads/130057/</link>
-            <description>Какая сейчас лучшая нейронка для генерации видео при помощи промта и фото.</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/130057/_2026-04-21 04:12:18</guid>
+            <title>China Credit Blacklist Database - Leaked, Download!</title>
+            <link>https://xforums.st/threads/china-credit-blacklist-database-leaked-download.422/</link>
+            <description>China Credit Blacklist Database - Leaked, Download!</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/china-credit-blacklist-database-leaked-download.422/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>Huawei выкатили складной Pura X Max — и он подозрительно похож на слитые концепты iPhone Fold</title>
-            <link>https://hard-tm.su/threads/160940/</link>
-            <description>Huawei выкатили складной Pura X Max — и он подозрительно похож на слитые концепты iPhone Fold</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/160940/_2026-04-21 04:12:18</guid>
+            <title>China Processed Data</title>
+            <link>https://xforums.st/threads/china-processed-data.488/</link>
+            <description>China Processed Data</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/china-processed-data.488/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>1.248.282 Lines ✅  Streaming Target Hotmail Combolist Fresh Leaks</title>
-            <link>https://hard-tm.su/threads/160978/</link>
-            <description>1.248.282 Lines ✅  Streaming Target Hotmail Combolist Fresh Leaks</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:18 GMT</pubDate>
-            <guid isPermaLink='false'>https://hard-tm.su/threads/160978/_2026-04-21 04:12:18</guid>
+            <title>[ Micwaudio.com.cn (China) Manufacturing Company SQL Dump ] Database Leaked</title>
+            <link>https://xforums.st/threads/micwaudio-com-cn-china-manufacturing-company-sql-dump-database-leaked.12978/</link>
+            <description>[ Micwaudio.com.cn (China) Manufacturing Company SQL Dump ] Database Leaked</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/micwaudio-com-cn-china-manufacturing-company-sql-dump-database-leaked.12978/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>Checking Credit Card</title>
-            <link>https://blackbones.net/threads/checking-credit-card.387/</link>
-            <description>Checking Credit Card</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:17 GMT</pubDate>
-            <guid isPermaLink='false'>https://blackbones.net/threads/checking-credit-card.387/_2026-04-21 04:12:17</guid>
+            <title>[1 Lines] [gt.china-tender.com.cn] From Cloud By X Forums.st</title>
+            <link>https://xforums.st/threads/1-lines-gt-china-tender-com-cn-from-cloud-by-x-forums-st.90112/</link>
+            <description>[1 Lines] [gt.china-tender.com.cn] From Cloud By X Forums.st</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/1-lines-gt-china-tender-com-cn-from-cloud-by-x-forums-st.90112/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>FULL TAX RETUN PERSONAL or BUSINESS</title>
-            <link>https://blackbones.net/threads/full-tax-retun-personal-or-business.22869/</link>
-            <description>FULL TAX RETUN PERSONAL or BUSINESS</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:17 GMT</pubDate>
-            <guid isPermaLink='false'>https://blackbones.net/threads/full-tax-retun-personal-or-business.22869/_2026-04-21 04:12:17</guid>
+            <title>[13 Lines] [www.china-rns.com] From Cloud By X Forums.st</title>
+            <link>https://xforums.st/threads/13-lines-www-china-rns-com-from-cloud-by-x-forums-st.111657/</link>
+            <description>[13 Lines] [www.china-rns.com] From Cloud By X Forums.st</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/13-lines-www-china-rns-com-from-cloud-by-x-forums-st.111657/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>Are there any paypal transfer sellers that would make a deal with me?</title>
-            <link>https://blackbones.net/threads/are-there-any-paypal-transfer-sellers-that-would-make-a-deal-with-me.16692/</link>
-            <description>Are there any paypal transfer sellers that would make a deal with me?</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:17 GMT</pubDate>
-            <guid isPermaLink='false'>https://blackbones.net/threads/are-there-any-paypal-transfer-sellers-that-would-make-a-deal-with-me.16692/_2026-04-21 04:12:17</guid>
+            <title>[ CHINA ] By XForums</title>
+            <link>https://xforums.st/threads/china-by-xforums.313389/</link>
+            <description>[ CHINA ] By XForums</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/china-by-xforums.313389/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>OFFLINE POS NEEDED!!!</title>
-            <link>https://blackbones.net/threads/offline-pos-needed.12465/</link>
-            <description>OFFLINE POS NEEDED!!!</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:17 GMT</pubDate>
-            <guid isPermaLink='false'>https://blackbones.net/threads/offline-pos-needed.12465/_2026-04-21 04:12:17</guid>
+            <title>Total Lines 24853 SOCKS5 Proxies</title>
+            <link>https://xforums.st/threads/total-lines-24853-socks5-proxies.609236/</link>
+            <description>Total Lines 24853 SOCKS5 Proxies</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-24853-socks5-proxies.609236/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>Official Mexican citizenship - fast, reliable, risk-free!</title>
-            <link>https://blackbones.net/threads/official-mexican-citizenship-fast-reliable-risk-free.22691/</link>
-            <description>Official Mexican citizenship - fast, reliable, risk-free!</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:17 GMT</pubDate>
-            <guid isPermaLink='false'>https://blackbones.net/threads/official-mexican-citizenship-fast-reliable-risk-free.22691/_2026-04-21 04:12:17</guid>
+            <title>Total Lines 336 SOCKS4 Proxies</title>
+            <link>https://xforums.st/threads/total-lines-336-socks4-proxies.609235/</link>
+            <description>Total Lines 336 SOCKS4 Proxies</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-336-socks4-proxies.609235/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>🌟 LIST OF FORUMS | MANUAL POSTING OF YOUR TOPICS ON FORUMS | UP-BUMPING OF TOPICS 🌟</title>
-            <link>https://blackbones.net/threads/list-of-forums-manual-posting-of-your-topics-on-forums-up-bumping-of-topics.15357/</link>
-            <description>🌟 LIST OF FORUMS | MANUAL POSTING OF YOUR TOPICS ON FORUMS | UP-BUMPING OF TOPICS 🌟</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:17 GMT</pubDate>
-            <guid isPermaLink='false'>https://blackbones.net/threads/list-of-forums-manual-posting-of-your-topics-on-forums-up-bumping-of-topics.15357/_2026-04-21 04:12:17</guid>
+            <title>Total Lines 765 HTTP Proxies</title>
+            <link>https://xforums.st/threads/total-lines-765-http-proxies.609234/</link>
+            <description>Total Lines 765 HTTP Proxies</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-765-http-proxies.609234/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>[WEBDEV] #1 FULL-STACK WEB DEVELOPMENT – FRONT-END, BACK-END, UI/UX, DB & MORE!</title>
-            <link>https://blackbones.net/threads/webdev-1-full-stack-web-development-front-end-back-end-ui-ux-db-more.21819/</link>
-            <description>[WEBDEV] #1 FULL-STACK WEB DEVELOPMENT – FRONT-END, BACK-END, UI/UX, DB & MORE!</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:17 GMT</pubDate>
-            <guid isPermaLink='false'>https://blackbones.net/threads/webdev-1-full-stack-web-development-front-end-back-end-ui-ux-db-more.21819/_2026-04-21 04:12:17</guid>
+            <title>Isreal Face Book Datebase Leakedtotal Acc 3956428 AccountCloud</title>
+            <link>https://xforums.st/threads/isreal-face-book-datebase-leakedtotal-acc-3956428-accountcloud.414/</link>
+            <description>Isreal Face Book Datebase Leakedtotal Acc 3956428 AccountCloud</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/isreal-face-book-datebase-leakedtotal-acc-3956428-accountcloud.414/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>869.036 Lines ✅  Germany de Combolist Mixed Target</title>
-            <link>https://forum.gerki.ws/threads/146078/</link>
-            <description>869.036 Lines ✅  Germany de Combolist Mixed Target</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:14 GMT</pubDate>
-            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146078/_2026-04-21 04:12:14</guid>
+            <title>Total Lines 23942 SOCKS5 Proxies</title>
+            <link>https://xforums.st/threads/total-lines-23942-socks5-proxies.609233/</link>
+            <description>Total Lines 23942 SOCKS5 Proxies</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-23942-socks5-proxies.609233/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>1.248.282 Lines ✅  Streaming Target Hotmail Combolist Fresh Leaks</title>
-            <link>https://forum.gerki.ws/threads/146077/</link>
-            <description>1.248.282 Lines ✅  Streaming Target Hotmail Combolist Fresh Leaks</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:14 GMT</pubDate>
-            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146077/_2026-04-21 04:12:14</guid>
+            <title>Total Lines 347 SOCKS4 Proxies</title>
+            <link>https://xforums.st/threads/total-lines-347-socks4-proxies.609232/</link>
+            <description>Total Lines 347 SOCKS4 Proxies</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-347-socks4-proxies.609232/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>1.142.879 Lines ✅  Europa Germany Mixed Combolist</title>
-            <link>https://forum.gerki.ws/threads/146076/</link>
-            <description>1.142.879 Lines ✅  Europa Germany Mixed Combolist</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:14 GMT</pubDate>
-            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146076/_2026-04-21 04:12:14</guid>
+            <title>1 108 Good HOTMAIL GOODS D4RKNETHUB CLOUD</title>
+            <link>https://xforums.st/threads/1-108-good-hotmail-goods-d4rknethub-cloud.609231/</link>
+            <description>1 108 Good HOTMAIL GOODS D4RKNETHUB CLOUD</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/1-108-good-hotmail-goods-d4rknethub-cloud.609231/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>850X  Hotmail Fresh Hits Just Valid Mail 20.04</title>
-            <link>https://forum.gerki.ws/threads/146075/</link>
-            <description>850X  Hotmail Fresh Hits Just Valid Mail 20.04</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:14 GMT</pubDate>
-            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146075/_2026-04-21 04:12:14</guid>
+            <title>Total Lines 782 HTTP Proxies</title>
+            <link>https://xforums.st/threads/total-lines-782-http-proxies.609230/</link>
+            <description>Total Lines 782 HTTP Proxies</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-782-http-proxies.609230/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>♋ 40k HOTMAIL Base With Valid [FORUMS] ♋ (8)</title>
-            <link>https://forum.gerki.ws/threads/146074/</link>
-            <description>♋ 40k HOTMAIL Base With Valid [FORUMS] ♋ (8)</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:14 GMT</pubDate>
-            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146074/_2026-04-21 04:12:14</guid>
+            <title>✦✦✦ [ 53k++ ] Combo ✦ { Ecuador   } ✦ Email:Pass ✦ FRESH ✦ [ 27-9-2025 ] ✦✦✦</title>
+            <link>https://xforums.st/threads/53k-combo-ecuador-email-pass-fresh-27-9-2025.587269/</link>
+            <description>✦✦✦ [ 53k++ ] Combo ✦ { Ecuador   } ✦ Email:Pass ✦ FRESH ✦ [ 27-9-2025 ] ✦✦✦</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/53k-combo-ecuador-email-pass-fresh-27-9-2025.587269/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>756.116 Lines ✅  Good Leaks De Germany Domain Combolist</title>
-            <link>https://forum.gerki.ws/threads/146072/</link>
-            <description>756.116 Lines ✅  Good Leaks De Germany Domain Combolist</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:14 GMT</pubDate>
-            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146072/_2026-04-21 04:12:14</guid>
+            <title>Total Lines 24034 SOCKS5 Proxies</title>
+            <link>https://xforums.st/threads/total-lines-24034-socks5-proxies.609229/</link>
+            <description>Total Lines 24034 SOCKS5 Proxies</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-24034-socks5-proxies.609229/_2026-04-22 04:08:15</guid>
         </item>
         <item>
-            <title>«Отравим Тель-Авив, если найдем нужный IP». Хакеры написали вирус для воды, но забыли его доделать</title>
-            <link>https://forum.gerki.ws/threads/146071/</link>
-            <description>«Отравим Тель-Авив, если найдем нужный IP». Хакеры написали вирус для воды, но забыли его доделать</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:14 GMT</pubDate>
-            <guid isPermaLink='false'>https://forum.gerki.ws/threads/146071/_2026-04-21 04:12:14</guid>
-        </item>
-        <item>
-            <title>Total Lines 25048 SOCKS5 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-25048-socks5-proxies.609145/</link>
-            <description>Total Lines 25048 SOCKS5 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-25048-socks5-proxies.609145/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 344 SOCKS4 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-344-socks4-proxies.609144/</link>
-            <description>Total Lines 344 SOCKS4 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-344-socks4-proxies.609144/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 676 HTTP Proxies</title>
-            <link>https://xforums.st/threads/total-lines-676-http-proxies.609143/</link>
-            <description>Total Lines 676 HTTP Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-676-http-proxies.609143/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 28065 SOCKS5 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-28065-socks5-proxies.609142/</link>
-            <description>Total Lines 28065 SOCKS5 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-28065-socks5-proxies.609142/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 376 SOCKS4 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-376-socks4-proxies.609141/</link>
-            <description>Total Lines 376 SOCKS4 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-376-socks4-proxies.609141/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 787 HTTP Proxies</title>
-            <link>https://xforums.st/threads/total-lines-787-http-proxies.609140/</link>
-            <description>Total Lines 787 HTTP Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-787-http-proxies.609140/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 29237 SOCKS5 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-29237-socks5-proxies.609139/</link>
-            <description>Total Lines 29237 SOCKS5 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-29237-socks5-proxies.609139/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 364 SOCKS4 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-364-socks4-proxies.609138/</link>
-            <description>Total Lines 364 SOCKS4 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-364-socks4-proxies.609138/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 803 HTTP Proxies</title>
-            <link>https://xforums.st/threads/total-lines-803-http-proxies.609137/</link>
-            <description>Total Lines 803 HTTP Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-803-http-proxies.609137/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 30360 SOCKS5 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-30360-socks5-proxies.609136/</link>
-            <description>Total Lines 30360 SOCKS5 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-30360-socks5-proxies.609136/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 400 SOCKS4 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-400-socks4-proxies.609135/</link>
-            <description>Total Lines 400 SOCKS4 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-400-socks4-proxies.609135/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 781 HTTP Proxies</title>
-            <link>https://xforums.st/threads/total-lines-781-http-proxies.609134/</link>
-            <description>Total Lines 781 HTTP Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-781-http-proxies.609134/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 31428 SOCKS5 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-31428-socks5-proxies.609133/</link>
-            <description>Total Lines 31428 SOCKS5 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-31428-socks5-proxies.609133/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 367 SOCKS4 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-367-socks4-proxies.609132/</link>
-            <description>Total Lines 367 SOCKS4 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-367-socks4-proxies.609132/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 847 HTTP Proxies</title>
-            <link>https://xforums.st/threads/total-lines-847-http-proxies.609131/</link>
-            <description>Total Lines 847 HTTP Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-847-http-proxies.609131/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 32485 SOCKS5 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-32485-socks5-proxies.609130/</link>
-            <description>Total Lines 32485 SOCKS5 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-32485-socks5-proxies.609130/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 410 SOCKS4 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-410-socks4-proxies.609129/</link>
-            <description>Total Lines 410 SOCKS4 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-410-socks4-proxies.609129/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 875 HTTP Proxies</title>
-            <link>https://xforums.st/threads/total-lines-875-http-proxies.609128/</link>
-            <description>Total Lines 875 HTTP Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-875-http-proxies.609128/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 34965 SOCKS5 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-34965-socks5-proxies.609127/</link>
-            <description>Total Lines 34965 SOCKS5 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-34965-socks5-proxies.609127/_2026-04-21 04:12:09</guid>
-        </item>
-        <item>
-            <title>Total Lines 382 SOCKS4 Proxies</title>
-            <link>https://xforums.st/threads/total-lines-382-socks4-proxies.609126/</link>
-            <description>Total Lines 382 SOCKS4 Proxies</description>
-            <pubDate>Tue, 21 Apr 2026 04:12:09 GMT</pubDate>
-            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-382-socks4-proxies.609126/_2026-04-21 04:12:09</guid>
+            <title>Total Lines 342 SOCKS4 Proxies</title>
+            <link>https://xforums.st/threads/total-lines-342-socks4-proxies.609228/</link>
+            <description>Total Lines 342 SOCKS4 Proxies</description>
+            <pubDate>Wed, 22 Apr 2026 04:08:15 GMT</pubDate>
+            <guid isPermaLink='false'>https://xforums.st/threads/total-lines-342-socks4-proxies.609228/_2026-04-22 04:08:15</guid>
         </item>
     </channel>
 </rss>
