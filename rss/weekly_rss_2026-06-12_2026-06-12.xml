@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0'
+    xmlns:atom='http://www.w3.org/2005/Atom'>
+    <channel>
+        <title>数据泄露监控周报 RSS 2026-06-12 - 2026-06-12</title>
+        <description>每周数据泄露监控RSS feed，包含2026-06-12到2026-06-12的最新数据泄露信息</description>
+        <link>https://adminlove520.github.io/DarkWeb-Forums-Tracker/</link>
+        <atom:link href='https://adminlove520.github.io/DarkWeb-Forums-Tracker/rss/weekly_rss_2026-06-12_2026-06-12.xml' rel='self' type='application/rss+xml' />
+        <language>zh-CN</language>
+        <lastBuildDate>Fri, 12 Jun 2026 06:40:29 GMT</lastBuildDate>
+        <ttl>60</ttl>
+        
+    </channel>
+</rss>
