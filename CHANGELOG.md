@@ -1,6 +1,9 @@
 # 更新日志 (CHANGELOG)
 
 
+## [V1.0.11b] - 2026-09-04
+- 修复workflow配置： - 夜间休眠默认关闭（NIGHT_SLEEP_SWITCH='OFF'） - 添加push trigger，代码推送自动触发workflow
+
 ## [V1.0.10b] - 2026-09-04
 - 重构前端：全新现代化UI设计
 ## [V1.0.9b] - 2026-01-05
