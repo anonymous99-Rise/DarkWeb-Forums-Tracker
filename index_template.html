@@ -337,6 +337,60 @@
         .card:nth-child(4) { animation-delay: 0.2s; }
         .card:nth-child(5) { animation-delay: 0.25s; }
         .card:nth-child(6) { animation-delay: 0.3s; }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 32px;
+            flex-wrap: wrap;
+        }
+
+        .pagination-btn {
+            padding: 8px 14px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+
+        .pagination-btn:hover:not(:disabled) {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .pagination-btn.active {
+            background: var(--accent-blue);
+            border-color: var(--accent-blue);
+            color: #fff;
+        }
+
+        .pagination-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .page-size-select {
+            padding: 8px 12px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+
+        .pagination-info {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin: 0 12px;
+        }
     </style>
 </head>
 <body>
@@ -370,7 +424,7 @@
                 </div>
 
                 {% if reports %}
-                <div class="cards-grid">
+                <div class="cards-grid" id="reports-grid">
                     {% for report in reports %}
                     <a href="{{ report.path }}" class="card" target="_blank">
                         <div class="card-header">
@@ -382,6 +436,19 @@
                         </div>
                     </a>
                     {% endfor %}
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <button class="pagination-btn" id="prev-btn" onclick="prevPage()">← 上一页</button>
+                    <span class="pagination-info" id="page-info">第 1 页</span>
+                    <button class="pagination-btn" id="next-btn" onclick="nextPage()">下一页 →</button>
+                    <select class="page-size-select" id="page-size" onchange="changePageSize()">
+                        <option value="10">10条/页</option>
+                        <option value="20">20条/页</option>
+                        <option value="50">50条/页</option>
+                        <option value="100">100条/页</option>
+                    </select>
                 </div>
                 {% else %}
                 <div class="empty-state">
@@ -443,14 +510,65 @@
     </div>
 
     <script>
-        // 计算总数据量
         const reports = {{ reports|tojson }};
+        let currentPage = 1;
+        let pageSize = 10;
+
+        function renderReports() {
+            const grid = document.getElementById('reports-grid');
+            const cards = grid.querySelectorAll('.card');
+            const totalPages = Math.ceil(cards.length / pageSize);
+
+            // 隐藏所有卡片
+            cards.forEach((card, index) => {
+                const start = (currentPage - 1) * pageSize;
+                const end = start + pageSize;
+                card.style.display = (index >= start && index < end) ? 'block' : 'none';
+            });
+
+            // 更新页码信息
+            document.getElementById('page-info').textContent =
+                `第 ${currentPage} / ${totalPages} 页，共 ${cards.length} 条`;
+
+            // 更新按钮状态
+            document.getElementById('prev-btn').disabled = currentPage <= 1;
+            document.getElementById('next-btn').disabled = currentPage >= totalPages;
+        }
+
+        function prevPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                renderReports();
+            }
+        }
+
+        function nextPage() {
+            const cards = document.querySelectorAll('.card');
+            const totalPages = Math.ceil(cards.length / pageSize);
+            if (currentPage < totalPages) {
+                currentPage++;
+                renderReports();
+            }
+        }
+
+        function changePageSize() {
+            pageSize = parseInt(document.getElementById('page-size').value);
+            currentPage = 1;
+            renderReports();
+        }
+
+        // 计算总数据量
         let totalCount = 0;
         reports.forEach(r => {
             const count = parseInt(r.count) || 0;
             totalCount += count;
         });
         document.getElementById('total-count').textContent = totalCount > 0 ? totalCount : '-';
+
+        // 初始化分页
+        if (reports.length > 0) {
+            renderReports();
+        }
     </script>
 </body>
 </html>
