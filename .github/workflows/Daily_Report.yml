@@ -1,10 +1,11 @@
 name: Daily Report Generator
 
 on:
-  schedule:
-    # 每天北京时间9:00生成日报
-    # UTC时间1:00生成日报
-    - cron: '0 1 * * *'
+  # 暂时禁用定时调度，避免与主工作流冲突（主工作流每30分钟运行一次）
+  # schedule:
+  #   # 每天北京时间9:00生成日报
+  #   # UTC时间1:00生成日报
+  #   - cron: '0 1 * * *'
   workflow_dispatch:
 
 jobs:

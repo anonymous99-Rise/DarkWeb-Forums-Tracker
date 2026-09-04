@@ -9,6 +9,7 @@ import random
 from datetime import datetime, timedelta
 import dingtalkchatbot.chatbot as cb
 from jinja2 import Template
+from xml.sax.saxutils import escape
 
 # 版本信息
 __version__ = "V1.0.9b"
@@ -211,13 +212,10 @@ def should_sleep():
     # 判断当前时间（北京时间）是否在0-7点之间
     # 获取当前UTC时间，转换为北京时间（UTC+8）
     now_utc = datetime.utcnow()
-    # 转换为北京时间
-    now_bj = now_utc.hour + 8
-    # 处理跨天情况
-    if now_bj >= 24:
-        now_bj -= 24
-    
-    return now_bj < 7
+    # 正确转换为北京时间
+    now_bj = now_utc + timedelta(hours=8)
+
+    return now_bj.hour < 7
 
 # 初始化数据库
 
@@ -285,9 +283,7 @@ def check_for_updates(feed_url, site_name, cursor, conn, send_push=True):
             content = re.sub(r'<div class="block-mhhide block-mhhide--link">.*?</div>', '', content, flags=re.DOTALL)
             # 移除需要注册才能查看的链接提示
             content = re.sub(r'<div class="messageHide messageHide--link">.*?</div>', '', content, flags=re.DOTALL)
-            # 移除需要注册才能查看的图片提示
-            content = re.sub(r'<div class="messageHide messageHide--attach">.*?</div>', '', content, flags=re.DOTALL)
-            # 移除需要注册才能查看的附件提示
+            # 移除需要注册才能查看的图片/附件提示
             content = re.sub(r'<div class="messageHide messageHide--attach">.*?</div>', '', content, flags=re.DOTALL)
             # 移除按钮和其他交互元素
             content = re.sub(r'<input[^>]+>', '', content, flags=re.DOTALL)
@@ -733,22 +729,18 @@ def generate_rss_feed(cursor, feed_type="daily"):
         rss_file = f'{rss_dir}/daily_rss_{current_date}.xml'
         latest_rss_file = f'{rss_dir}/latest_daily_rss.xml'
     elif feed_type == "weekly":
-        # 周报RSS，获取本周数据
-        cursor.execute("SELECT title, link, timestamp FROM items WHERE timestamp >= date('now', 'start of week', '+1 day') AND timestamp <= date('now', 'start of week', '+7 days') ORDER BY timestamp DESC")
+        # 周报RSS，获取本周数据（周一到周日）
+        # 用Python正确计算本周开始和结束日期
+        today = datetime.now()
+        # 本周一 (weekday() 返回0=Monday)
+        monday = today - timedelta(days=today.weekday())
+        # 本周日
+        sunday = monday + timedelta(days=6)
+        start_date = monday.strftime('%Y-%m-%d')
+        end_date = sunday.strftime('%Y-%m-%d')
+
+        cursor.execute("SELECT title, link, timestamp FROM items WHERE date(timestamp) >= ? AND date(timestamp) <= ? ORDER BY timestamp DESC", (start_date, end_date))
         data_leaks = cursor.fetchall()
-        # 获取本周的开始和结束日期
-        cursor.execute("SELECT date('now', 'start of week', '+1 day') as start_date, date('now', 'start of week', '+7 days') as end_date")
-        result = cursor.fetchone()
-        if result:
-            start_date, end_date = result
-        else:
-            # 如果获取失败，使用当前日期作为默认值
-            start_date = current_date
-            end_date = current_date
-        
-        # 确保日期不为None
-        start_date = start_date or current_date
-        end_date = end_date or current_date
         feed_title = f"数据泄露监控周报 RSS {start_date} - {end_date}"
         feed_description = f"每周数据泄露监控RSS feed，包含{start_date}到{end_date}的最新数据泄露信息"
         feed_link = f"https://adminlove520.github.io/DarkWeb-Forums-Tracker/rss/weekly_rss_{start_date}_{end_date}.xml"
@@ -778,13 +770,13 @@ def generate_rss_feed(cursor, feed_type="daily"):
         title, link, timestamp = leak
         # 转换时间格式为RSS要求的格式（RFC 822）
         rss_time = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S').strftime('%a, %d %b %Y %H:%M:%S GMT')
-        
+
         rss_content += f"""        <item>
-            <title>{title}</title>
-            <link>{link}</link>
-            <description>{title}</description>
+            <title>{escape(title)}</title>
+            <link>{escape(link)}</link>
+            <description>{escape(title)}</description>
             <pubDate>{rss_time}</pubDate>
-            <guid isPermaLink='false'>{link}_{timestamp}</guid>
+            <guid isPermaLink='false'>{escape(link)}_{timestamp}</guid>
         </item>
 """
     
@@ -833,17 +825,23 @@ def get_data_statistics(cursor, report_type="daily"):
         cursor.execute("SELECT strftime('%H', timestamp) as hour, COUNT(*) as count FROM items WHERE date(timestamp) = date('now') GROUP BY hour ORDER BY hour")
         statistics['by_hour'] = cursor.fetchall()
     elif report_type == "weekly":
-        # 每周统计
-        # 获取本周总数量（从周一到周日）
-        cursor.execute("SELECT COUNT(*) FROM items WHERE timestamp >= date('now', 'start of week', '+1 day') AND timestamp <= date('now', 'start of week', '+7 days')")
+        # 每周统计（周一到周日）
+        today = datetime.now()
+        monday = today - timedelta(days=today.weekday())
+        sunday = monday + timedelta(days=6)
+        start_date = monday.strftime('%Y-%m-%d')
+        end_date = sunday.strftime('%Y-%m-%d')
+
+        # 获取本周总数量
+        cursor.execute("SELECT COUNT(*) FROM items WHERE date(timestamp) >= ? AND date(timestamp) <= ?", (start_date, end_date))
         statistics['total_count'] = cursor.fetchone()[0]
-        
-        # 按数据源统计数量（使用site_name字段）
-        cursor.execute("SELECT site_name, COUNT(*) as count FROM items WHERE timestamp >= date('now', 'start of week', '+1 day') AND timestamp <= date('now', 'start of week', '+7 days') GROUP BY site_name ORDER BY count DESC")
+
+        # 按数据源统计数量
+        cursor.execute("SELECT site_name, COUNT(*) as count FROM items WHERE date(timestamp) >= ? AND date(timestamp) <= ? GROUP BY site_name ORDER BY count DESC", (start_date, end_date))
         statistics['by_source'] = cursor.fetchall()
-        
+
         # 按日期统计数量
-        cursor.execute("SELECT date(timestamp) as date, COUNT(*) as count FROM items WHERE timestamp >= date('now', 'start of week', '+1 day') AND timestamp <= date('now', 'start of week', '+7 days') GROUP BY date ORDER BY date")
+        cursor.execute("SELECT date(timestamp) as date, COUNT(*) as count FROM items WHERE date(timestamp) >= ? AND date(timestamp) <= ? GROUP BY date ORDER BY date", (start_date, end_date))
         statistics['by_date'] = cursor.fetchall()
     
     return statistics
@@ -986,24 +984,17 @@ def generate_weekly_report(cursor):
         tuple: (markdown_file, markdown_content) 周报文件路径和内容
     """
     print("开始生成周报...")
-    
+
     # 获取当前日期和时间
     current_date = time.strftime("%Y-%m-%d", time.localtime())
     current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    
-    # 获取本周的开始和结束日期（周一到周日）
-    cursor.execute("SELECT date('now', 'start of week', '+1 day') as start_date, date('now', 'start of week', '+7 days') as end_date")
-    result = cursor.fetchone()
-    if result:
-        start_date, end_date = result
-    else:
-        # 如果获取失败，使用当前日期作为默认值
-        start_date = current_date
-        end_date = current_date
-    
-    # 确保日期不为None
-    start_date = start_date or current_date
-    end_date = end_date or current_date
+
+    # 正确计算本周的开始和结束日期（周一到周日）
+    today = datetime.now()
+    monday = today - timedelta(days=today.weekday())
+    sunday = monday + timedelta(days=6)
+    start_date = monday.strftime('%Y-%m-%d')
+    end_date = sunday.strftime('%Y-%m-%d')
     
     # 创建目录结构
     archive_dir = f'archive/Weekly_{start_date}'
@@ -1624,6 +1615,31 @@ def update_index_html(current_date, article_list, count):
             <p style="color: var(--text-secondary); font-size: 1rem; font-family: 'Courier New', monospace;">报告将根据监控数据自动生成</p>
         </div>
         {% endif %}
+
+        <!-- RSS订阅区块 -->
+        <div style="margin-top: 48px;">
+            <div style="text-align: center; margin-bottom: 24px;">
+                <h2 style="color: var(--accent-color); text-shadow: 0 0 15px rgba(255, 0, 127, 0.6); font-size: 1.75rem; text-align: center; margin-bottom: 0; padding: 16px 32px; border: 1px solid var(--accent-color); border-radius: 12px; background: var(--bg-primary); font-family: 'Courier New', monospace; box-shadow: 0 0 15px rgba(255, 0, 127, 0.2); display: inline-block;">📡 RSS 订阅</h2>
+            </div>
+            <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                <a href="/DarkWeb-Forums-Tracker/rss/latest_daily_rss.xml" style="flex: 1; min-width: 280px; max-width: 400px; text-decoration: none;">
+                    <div style="background: var(--bg-primary); border: 1px solid var(--accent-color); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease; box-shadow: 0 0 15px rgba(255, 0, 127, 0.2);">
+                        <div style="font-size: 2rem; margin-bottom: 12px;">📅</div>
+                        <div style="color: var(--secondary-color); font-size: 1.1rem; font-weight: bold; font-family: 'Courier New', monospace; margin-bottom: 8px;">日报 RSS</div>
+                        <div style="color: var(--text-secondary); font-size: 0.9rem; font-family: 'Courier New', monospace;">每日数据泄露监控日报订阅</div>
+                        <div style="color: var(--accent-color); font-size: 0.8rem; font-family: 'Courier New', monospace; margin-top: 8px;">点击订阅 · /DarkWeb-Forums-Tracker/rss/latest_daily_rss.xml</div>
+                    </div>
+                </a>
+                <a href="/DarkWeb-Forums-Tracker/rss/latest_weekly_rss.xml" style="flex: 1; min-width: 280px; max-width: 400px; text-decoration: none;">
+                    <div style="background: var(--bg-primary); border: 1px solid var(--accent-color); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease; box-shadow: 0 0 15px rgba(255, 0, 127, 0.2);">
+                        <div style="font-size: 2rem; margin-bottom: 12px;">📆</div>
+                        <div style="color: var(--secondary-color); font-size: 1.1rem; font-weight: bold; font-family: 'Courier New', monospace; margin-bottom: 8px;">周报 RSS</div>
+                        <div style="color: var(--text-secondary); font-size: 0.9rem; font-family: 'Courier New', monospace;">每周数据泄露监控周报订阅</div>
+                        <div style="color: var(--accent-color); font-size: 0.8rem; font-family: 'Courier New', monospace; margin-top: 8px;">点击订阅 · /DarkWeb-Forums-Tracker/rss/latest_weekly_rss.xml</div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </main>
     
     <footer style="text-align: center; margin-top: 64px; padding: 24px; color: var(--text-primary); font-size: 0.9rem; font-family: 'Courier New', monospace;">

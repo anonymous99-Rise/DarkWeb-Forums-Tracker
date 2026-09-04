@@ -1,10 +1,10 @@
 name: DarkWeb-Forums-Tracker
 
-# 每日触发一次
+# 每30分钟触发一次
 on:
   schedule:
-    # 北京时间10:00，对应UTC时间02:00（每日执行）
-    - cron: '0 2 * * *'
+    # 每30分钟执行一次（UTC时间）
+    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       night_sleep_switch:
@@ -72,8 +72,7 @@ jobs:
           DAILY_REPORT_SWITCH: ${{ github.event.inputs.daily_report_switch || secrets.DAILY_REPORT_SWITCH || 'ON' }}
           WEEKLY_REPORT_SWITCH: ${{ secrets.WEEKLY_REPORT_SWITCH || 'ON' }}
           WEEKLY_REPORT_PUSH_SWITCH: ${{ secrets.WEEKLY_REPORT_PUSH_SWITCH || 'ON' }}
-        # run: python ./DarkWeb-Forums-Tracker.py  # 不使用--once参数，默认进入循环模式
-        run: python ./DarkWeb-Forums-Tracker.py --once # 循环模式已经没意义了 改成单次执行 
+        run: python ./DarkWeb-Forums-Tracker.py --once 
 
       - name: Commit changes
         run: |
