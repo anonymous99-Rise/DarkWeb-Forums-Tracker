@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkWeb Forums Tracker - 威胁情报监控</title>
+    <link rel="alternate" type="application/rss+xml" title="日报 RSS" href="/DarkWeb-Forums-Tracker/rss/latest_daily_rss.xml">
+    <link rel="alternate" type="application/rss+xml" title="周报 RSS" href="/DarkWeb-Forums-Tracker/rss/latest_weekly_rss.xml">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-dark: #0d1117;
+            --bg-card: #161b22;
+            --bg-hover: #21262d;
+            --border: #30363d;
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --text-muted: #6e7681;
+            --accent-green: #238636;
+            --accent-blue: #58a6ff;
+            --accent-purple: #a371f7;
+            --accent-orange: #d29922;
+            --accent-red: #f85149;
+            --accent-cyan: #39d353;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--accent-green), var(--accent-blue), transparent);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .header .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent-green);
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Section Title */
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-title h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .section-title .icon {
+            font-size: 1.2rem;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 16px;
+            margin-bottom: 48px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .card:hover {
+            border-color: var(--accent-blue);
+            background: var(--bg-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .card-date {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .card-badge {
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        .badge-daily {
+            background: rgba(35, 134, 54, 0.2);
+            color: var(--accent-green);
+        }
+
+        .badge-weekly {
+            background: rgba(163, 113, 247, 0.2);
+            color: var(--accent-purple);
+        }
+
+        .card-count {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .card-count strong {
+            color: var(--accent-blue);
+            font-weight: 600;
+        }
+
+        /* RSS Section */
+        .rss-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 32px;
+            margin-bottom: 48px;
+        }
+
+        .rss-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .rss-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+        }
+
+        .rss-link {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 20px;
+            background: var(--bg-dark);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: all 0.2s ease;
+        }
+
+        .rss-link:hover {
+            border-color: var(--accent-orange);
+            background: var(--bg-hover);
+        }
+
+        .rss-icon {
+            font-size: 1.5rem;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(210, 153, 34, 0.15);
+            border-radius: 8px;
+        }
+
+        .rss-info h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .rss-info p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Data Sources */
+        .sources-section {
+            margin-bottom: 48px;
+        }
+
+        .sources-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .source-tag {
+            font-size: 0.8rem;
+            padding: 6px 12px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 80px 20px;
+            color: var(--text-muted);
+        }
+
+        .empty-state .icon {
+            font-size: 3rem;
+            margin-bottom: 16px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .header .stats {
+                gap: 24px;
+            }
+
+            .stat-value {
+                font-size: 1.5rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card {
+            animation: fadeIn 0.3s ease forwards;
+        }
+
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🛡️ DarkWeb Forums Tracker</h1>
+            <p>Dark Web 数据泄露情报实时监控</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-value" id="total-reports">{{ reports|length }}</div>
+                    <div class="stat-label">监控日报</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="total-count">-</div>
+                    <div class="stat-label">数据总量</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">14</div>
+                    <div class="stat-label">数据源</div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Reports Section -->
+            <section class="reports-section">
+                <div class="section-title">
+                    <span class="icon">📊</span>
+                    <h2>威胁情报报告</h2>
+                </div>
+
+                {% if reports %}
+                <div class="cards-grid">
+                    {% for report in reports %}
+                    <a href="{{ report.path }}" class="card" target="_blank">
+                        <div class="card-header">
+                            <span class="card-date">{{ report.date }}</span>
+                            <span class="card-badge badge-daily">日报</span>
+                        </div>
+                        <div class="card-count">
+                            共 <strong>{{ report.count }}</strong> 条数据泄露记录
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="empty-state">
+                    <div class="icon">📭</div>
+                    <p>暂无报告数据，系统将在下次运行时自动生成</p>
+                </div>
+                {% endif %}
+            </section>
+
+            <!-- RSS Subscription -->
+            <section class="rss-section">
+                <h3>📡 RSS 订阅</h3>
+                <div class="rss-links">
+                    <a href="/DarkWeb-Forums-Tracker/rss/latest_daily_rss.xml" class="rss-link" title="订阅日报RSS">
+                        <div class="rss-icon">📅</div>
+                        <div class="rss-info">
+                            <h4>日报 RSS</h4>
+                            <p>每日数据泄露监控订阅</p>
+                        </div>
+                    </a>
+                    <a href="/DarkWeb-Forums-Tracker/rss/latest_weekly_rss.xml" class="rss-link" title="订阅周报RSS">
+                        <div class="rss-icon">📆</div>
+                        <div class="rss-info">
+                            <h4>周报 RSS</h4>
+                            <p>每周数据泄露监控订阅</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Data Sources -->
+            <section class="sources-section">
+                <div class="section-title">
+                    <span class="icon">🔗</span>
+                    <h2>监控数据源</h2>
+                </div>
+                <div class="sources-list">
+                    <span class="source-tag">Xforums.st</span>
+                    <span class="source-tag">gerki</span>
+                    <span class="source-tag">blackbones</span>
+                    <span class="source-tag">hard-tm</span>
+                    <span class="source-tag">ascarding</span>
+                    <span class="source-tag">htdark</span>
+                    <span class="source-tag">niflheim</span>
+                    <span class="source-tag">mipped</span>
+                    <span class="source-tag">leakbase</span>
+                    <span class="source-tag">dublikat</span>
+                    <span class="source-tag">darkforums.io</span>
+                    <span class="source-tag">sinister</span>
+                    <span class="source-tag">cardforum</span>
+                    <span class="source-tag">ipbmafia</span>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Power By <a href="https://www.dfyxsec.com/" target="_blank">东方隐侠安全团队</a> · Anonymous@ 隐侠安全客栈</p>
+        </footer>
+    </div>
+
+    <script>
+        // 计算总数据量
+        const reports = {{ reports|tojson }};
+        let totalCount = 0;
+        reports.forEach(r => {
+            const count = parseInt(r.count) || 0;
+            totalCount += count;
+        });
+        document.getElementById('total-count').textContent = totalCount > 0 ? totalCount : '-';
+    </script>
+</body>
+</html>
