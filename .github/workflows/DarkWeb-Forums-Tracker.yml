@@ -34,9 +34,6 @@ on:
         options:
           - 'ON'
           - 'OFF'
-  push:
-    branches:
-      - main
 
 jobs:
   build:
