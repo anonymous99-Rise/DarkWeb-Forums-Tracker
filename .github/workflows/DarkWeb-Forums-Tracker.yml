@@ -1,10 +1,13 @@
 name: DarkWeb-Forums-Tracker
 
-# 每30分钟触发一次
+# push代码或定时触发
 on:
   schedule:
     # 每30分钟执行一次（UTC时间）
     - cron: '*/30 * * * *'
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       night_sleep_switch:
@@ -68,7 +71,7 @@ jobs:
           DISCARD_SEND_DAILY_REPORT: ${{ secrets.DISCARD_SEND_DAILY_REPORT || 'OFF' }}
           DISCARD_SEND_NORMAL_MSG: ${{ secrets.DISCARD_SEND_NORMAL_MSG || 'ON' }}
           DISCARD_SEND_WEEKLY_REPORT: ${{ secrets.DISCARD_SEND_WEEKLY_REPORT || 'ON' }}
-          NIGHT_SLEEP_SWITCH: ${{ github.event.inputs.night_sleep_switch || secrets.NIGHT_SLEEP_SWITCH || 'ON' }}
+          NIGHT_SLEEP_SWITCH: ${{ github.event.inputs.night_sleep_switch || secrets.NIGHT_SLEEP_SWITCH || 'OFF' }}
           DAILY_REPORT_SWITCH: ${{ github.event.inputs.daily_report_switch || secrets.DAILY_REPORT_SWITCH || 'ON' }}
           WEEKLY_REPORT_SWITCH: ${{ secrets.WEEKLY_REPORT_SWITCH || 'ON' }}
           WEEKLY_REPORT_PUSH_SWITCH: ${{ secrets.WEEKLY_REPORT_PUSH_SWITCH || 'ON' }}
