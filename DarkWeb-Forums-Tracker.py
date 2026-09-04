@@ -12,7 +12,7 @@ from jinja2 import Template
 from xml.sax.saxutils import escape
 
 # 版本信息
-__version__ = "V1.0.11b"
+__version__ = "V1.0.12b"
 
 # 从Git仓库动态获取版本信息
 def get_git_version():
